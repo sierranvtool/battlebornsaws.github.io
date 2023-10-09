@@ -99,7 +99,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #slider {
   background: url("../img/slider-bg.jpg") no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+/*  background-attachment: fixed; */
   background-position: 10% 0%;
   padding: 200px 0 280px 0;
   position: relative;
@@ -191,7 +191,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #call-to-action {
   background: url("../img/call-to-action-bg.jpg") no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+/*  background-attachment: fixed; */
   padding: 70px 0px;
   position: relative;
   text-align: center;
@@ -239,7 +239,7 @@ font header .navbar-default .navbar-nav li a:hover {
   display: block;
   position: relative;
   overflow: visible;
-  background-attachment: fixed;
+/*  background-attachment: fixed; */
   background-repeat: no-repeat;
   background-position: center center;
   background-color: #fff;
@@ -364,7 +364,7 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-top: 150px;
   padding-bottom: 107px;
   position: relative;
-  background-attachment: fixed;
+/*  background-attachment: fixed; */
 }
 #global-header:before {
   content: "";
