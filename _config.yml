@@ -14,10 +14,9 @@ keep_files:
 # Site settings
 title: Battle Born Saws
 subtitle: "Modern saws and hardware from Sierra Nevada Tools"
-url: "http://ndrewtl.github.io" # the base hostname & protocol for your site
-# baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
+url: "https://sierranvtool.github.io"
 baseurl: ""
-cover: "/assets/cover.png"
+cover: ""
 logo: "/assets/logo-horizontal.svg"
 
 # Build settings
