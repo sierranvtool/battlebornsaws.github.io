@@ -23,7 +23,7 @@ image: /assets/images/saw-medallion.jpg
         <input type="hidden" name="on0" value="Style">
         <label for="os0">Medallion Style</label>
         <select name="os0" id="os0">
-            <option value="Do ">
+            <option value="Recessed">
                 -- Select a style --</option>
             <option value="Flat">Flat</option>
             <option value="Recessed">Recessed</option>
