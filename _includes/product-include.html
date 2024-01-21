@@ -1,13 +1,11 @@
-<div class="cart-item">
-    <div class="cart-header">
-        <h4>{{ product.name }}</h4>
+<div class="product">
+    <div class="product-image">
+        <img src="{{ product.image }}" alt="{{ product.name }} product image" class="product__image">
     </div>
     <div class="product-details">
-        <p>{{ product.content }}</p>
+        <div class="product-title">{{ product.name }}</div>
+        <p class="product-description">{{ product.content }}</p>
     </div>
-    <div class="price-section">
-        <p>${{ product.price }}</p>
-    </div>
-    Add to cart
-    <img src="{{ product.image }}" alt="{{ product.name }} product image" class="product__image">
+    <div class="product-price">{{ product.price }}</div>
+    <button class="product-button">Add to cart</button>
 </div>

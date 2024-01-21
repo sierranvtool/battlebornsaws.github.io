@@ -1,6 +1,16 @@
 ---
 layout: product
 ---
+<div class="shopping-cart">
+  <div class="column-labels">
+    <label class="product-image">Image</label>
+    <label class="product-details">Product</label>
+    <label class="product-price">Price</label>
+    <label class="product-button">Add to Cart</label>
+  </div>
+
 {% for product in site.products %}
  {% include product-include.html %}
 {% endfor %}
+
+</div>
