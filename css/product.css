@@ -7,7 +7,7 @@ Side note: I know that this style of nesting in SASS doesn't result in the most 
 /* Global "table" column settings */
 .product-image {
   float: left;
-  width: 30%;
+  width: 20%;
 }
 
 .product-details {
@@ -22,7 +22,7 @@ Side note: I know that this style of nesting in SASS doesn't result in the most 
 
 .product-options {
   float: left;
-  width: 10%;
+  width: 20%;
 }
 
 .product-button {
@@ -102,6 +102,13 @@ label {
   line-height: 1.4em;
 }
 .product .product-options {
+  font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium";
+  font-size: 12px;
+}
+.product .product-options label {
+  font-weight: 300;
+}
+.product .product-options select {
   font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium";
 }
 .product .product-button {
