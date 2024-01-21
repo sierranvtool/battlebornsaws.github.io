@@ -13,8 +13,8 @@ keep_files:
 
 # Site settings
 title: Battle Born Saws
-subtitle: "Modern saws and hardware from Sierra Nevada Tools"
-url: "https://sierranvtool.github.io"
+subtitle: "Modern saws and hardware from Battle Born Saws"
+url: "https://www.battlebornsaws.com"
 baseurl: ""
 cover: ""
 logo: "/assets/logo-horizontal.svg"
@@ -32,3 +32,7 @@ descriptions:
 
   - cat: dummy
     desc: "Just some placeholder posts, lorem ipsum and the rest."
+
+collections:
+  - products
+
