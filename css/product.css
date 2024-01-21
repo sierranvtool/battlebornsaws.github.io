@@ -12,10 +12,15 @@ Side note: I know that this style of nesting in SASS doesn't result in the most 
 
 .product-details {
   float: left;
-  width: 50%;
+  width: 40%;
 }
 
 .product-price {
+  float: left;
+  width: 10%;
+}
+
+.product-options {
   float: left;
   width: 10%;
 }
@@ -95,6 +100,9 @@ label {
 }
 .product .product-details .product-description p {
   line-height: 1.4em;
+}
+.product .product-options {
+  font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium";
 }
 .product .product-button {
   border: 0;

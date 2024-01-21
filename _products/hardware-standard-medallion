@@ -18,15 +18,17 @@ image: /assets/images/saw-medallion.jpg
     <input type="hidden" name="amount" value="10.00">
     <input type="hidden" name="currency_code" value="USD">
 
-    <!-- Provide a drop-down menu option field. -->
-    <input type="hidden" name="on0" value="Style">
-    <label for="os0">Medallion Style</label>
+    <div class="product-options">
+        <!-- Provide a drop-down menu option field. -->
+        <input type="hidden" name="on0" value="Style">
+        <label for="os0">Medallion Style</label>
         <select name="os0" id="os0">
             <option value="Do ">
                 -- Select a style --</option>
             <option value="Flat">Flat</option>
             <option value="Recessed">Recessed</option>
         </select>
+    </div>
 
     <!-- Display the payment button. -->
     <button class="product-button">Add to Cart</button>
