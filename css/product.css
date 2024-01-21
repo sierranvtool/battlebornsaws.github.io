@@ -7,12 +7,12 @@ Side note: I know that this style of nesting in SASS doesn't result in the most 
 /* Global "table" column settings */
 .product-image {
   float: left;
-  width: 20%;
+  width: 30%;
 }
 
 .product-details {
   float: left;
-  width: 60%;
+  width: 50%;
 }
 
 .product-price {
@@ -26,12 +26,10 @@ Side note: I know that this style of nesting in SASS doesn't result in the most 
 }
 
 /* This is used as the traditional .clearfix class */
-.group:before, .shopping-cart:before, .column-labels:before, .product:before, .totals-item:before,
-.group:after,
+.group:before, .shopping-cart:before, .column-labels:before, .product:before, .group:after,
 .shopping-cart:after,
 .column-labels:after,
-.product:after,
-.totals-item:after {
+.product:after {
   content: '';
   display: table;
 }
@@ -97,7 +95,7 @@ label {
 }
 .product .product-details .product-description {
   margin: 5px 20px 5px 0;
-  line-height: 1.4em;
+  line-height: 1.4em !important;
 }
 .product .product-button {
   border: 0;
