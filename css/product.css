@@ -61,13 +61,8 @@ Side note: I know that this style of nesting in SASS doesn't result in the most 
 }
 
 .shopping-cart label {
-  display:block !important;
-  clear:both;
+  display:block;
   color: #333;
-}
-
-.shopping-cart select {
-  font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium" !important;
 }
 
 .shopping-cart {
@@ -95,7 +90,7 @@ Side note: I know that this style of nesting in SASS doesn't result in the most 
 }
 .product .product-details .product-title {
   margin-right: 20px;
-  font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium";
+  font-weight: bold;
 }
 .product .product-details .product-description {
   margin: 5px 20px 5px 0;
@@ -104,7 +99,6 @@ Side note: I know that this style of nesting in SASS doesn't result in the most 
   line-height: 1.4em;
 }
 .product .product-options {
-  font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium";
   font-size: 12px;
 }
 .product .product-button {
@@ -112,7 +106,6 @@ Side note: I know that this style of nesting in SASS doesn't result in the most 
   padding: 4px 8px;
   background-color: #c66;
   color: #fff;
-  font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium";
   font-size: 12px;
   border-radius: 3px;
 }
