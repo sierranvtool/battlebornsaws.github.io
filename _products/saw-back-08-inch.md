@@ -19,23 +19,23 @@ image: /assets/images/saw-back.jpg
 
     <div class="product-options">
         <!-- Provide a drop-down menu option field. -->
-        <input type="hidden" name="on0" value="020">
-        <label for="os0">Slot</label>
+        <input type="hidden" name="on0" value="Slot Size">
+        <label for="os0">Slot Size</label>
         <select name="os0" id="os0">
             <option value="">-- Select a size --</option>
-            <option value="015">0.015"</option>
-            <option value="018">0.015"</option>
-            <option value="020">0.020"</option>
-            <option value="025">0.020"</option>
+            <option value=".015 in">0.015"</option>
+            <option value=".018 in">0.015"</option>
+            <option value=".020 in" selected="selected">0.020"</option>
+            <option value=".025 in">0.020"</option>
         </select>
 
         <!-- Provide a drop-down menu option field with prices. -->
-        <input type="hidden" name="on1" value="3/4">
+        <input type="hidden" name="on1" value="Height">
         <label for="os1">Height</label>
         <select name="os1" id="os1">
-            <option value="">Select a Height</option>
-            <option value="3/4">3/4 inch</option>
-            <option value="5/8">5/8 inch - + $1.00</option>
+            <option value="">-- Select a height --</option>
+            <option value="3/4 inch">3/4 inch</option>
+            <option value="5/8 inch">5/8 inch (+ $1.00)</option>
         </select>
 
         <input type="hidden" name="option_index" value="1">

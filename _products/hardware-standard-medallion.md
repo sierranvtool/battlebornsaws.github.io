@@ -20,12 +20,12 @@ image: /assets/images/saw-medallion.jpg
 
     <div class="product-options">
         <!-- Provide a drop-down menu option field. -->
-        <input type="hidden" name="on0" value="Recessed">
+        <input type="hidden" name="on0" value="Style">
         <label for="os0">Medallion Style</label>
         <select name="os0" id="os0">
             <option value="">-- Select a style --</option>
             <option value="Flat">Flat</option>
-            <option value="Recessed">Recessed</option>
+            <option value="Recessed" selected="selected">Recessed</option>
         </select>
     </div>
 
