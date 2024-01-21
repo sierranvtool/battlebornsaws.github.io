@@ -66,8 +66,7 @@ Side note: I know that this style of nesting in SASS doesn't result in the most 
 }
 
 .shopping-cart {
-  margin-left: 15px;
-  margin-right 15px;
+  margin: 0px 10px 0px 10px;
 }
 
 /* Column headers */
