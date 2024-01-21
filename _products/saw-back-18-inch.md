@@ -39,10 +39,10 @@ image: /assets/images/saw-back.jpg
         </select>
 
         <input type="hidden" name="option_index" value="1">
-        <input type="hidden" name="option_select0" value="3/4">
-        <input type="hidden" name="option_amount0" value="15.00">
-        <input type="hidden" name="option_select1" value="5/8">
-        <input type="hidden" name="option_amount1" value="16.00">
+        <input type="hidden" name="option_select0" value="3/4 inch">
+        <input type="hidden" name="option_amount0" value="19.00">
+        <input type="hidden" name="option_select1" value="5/8 inch">
+        <input type="hidden" name="option_amount1" value="20.00">
     </div>
 
     <!-- Display the payment button. -->
