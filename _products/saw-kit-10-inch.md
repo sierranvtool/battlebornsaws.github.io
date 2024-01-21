@@ -1,7 +1,7 @@
 ---
 identifier: saw-kit-10-inch
-name: 10" Dovetail Saw Kit
-price: 55.00
-image: /assets/images/saw-kit-10-inch.jpg
+name: 10-inch Dovetail Saw Kit
+price: "55.00"
+image: /assets/images/saw-kit-no-medallion.jpg
 ---
-Standard back with 0.20 slot and plate.  Either 13ppi or 15ppi toothline.
+Standard back with 0.020" slot and plate.  10" dovetail saws have a 2 inch depth of cut.  Either 13ppi or 15ppi rip cut toothline.

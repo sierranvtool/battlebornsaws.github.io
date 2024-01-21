@@ -1,0 +1,26 @@
+.cart-item {
+   border: 1px solid #ddd;
+   padding: 10px;
+   margin-bottom: 10px;
+}
+
+.cart-header {
+   border-bottom: 1px solid #ddd;
+   padding-bottom: 5px;
+   margin-bottom: 10px;
+}
+
+.price-section {
+   /* Styling for price section */
+   font-size: 16px;
+   color: #333;
+   margin-top: 10px; /* Додано відступ зверху для кращого розташування */
+}
+
+button {
+   padding: 10px 20px;
+   background-color: #4CAF50; /* Зелений колір, можна змінити */
+   color: white;
+   border: none;
+   cursor: pointer;
+}
