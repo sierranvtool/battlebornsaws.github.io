@@ -60,7 +60,7 @@ h1 {
 }
 
 label {
-  color: #aaa;
+  color: #333;
 }
 
 .shopping-cart {
@@ -72,9 +72,6 @@ label {
   padding-bottom: 15px;
   margin-bottom: 15px;
   border-bottom: 1px solid #eee;
-}
-.column-labels .product-image, .column-labels .product-details, .column-labels .product-button {
-  text-indent: -9999px;
 }
 
 /* Product entries */
@@ -95,6 +92,8 @@ label {
 }
 .product .product-details .product-description {
   margin: 5px 20px 5px 0;
+}
+.product .product-details .product-description p {
   line-height: 1.4em;
 }
 .product .product-button {
