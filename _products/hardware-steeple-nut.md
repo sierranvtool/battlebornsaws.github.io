@@ -18,7 +18,7 @@ image: /assets/images/saw-steeple-nut.jpg
     <input type="hidden" name="amount" value="10.00">
     <input type="hidden" name="currency_code" value="USD">
 
-    <div class="product-options"></div>
+    <div class="product-options">&nbsp;</div>
 
     <!-- Display the payment button. -->
     <button class="product-button">Add to Cart</button>

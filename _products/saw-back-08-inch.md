@@ -14,7 +14,7 @@ image: /assets/images/saw-back.jpg
     <input type="hidden" name="add" value="1">
 
     <!-- Specify details about the item that buyers will purchase. -->
-    <input type="hidden" name="item_name" value=8 inch Saw Back">
+    <input type="hidden" name="item_name" value="8 inch Saw Back">
     <input type="hidden" name="currency_code" value="USD">
 
     <div class="product-options">
