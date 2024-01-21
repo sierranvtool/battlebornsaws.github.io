@@ -24,7 +24,7 @@ image: /assets/images/saw-back.jpg
         <select name="os0" id="os0">
             <option value="">-- Select a size --</option>
             <option value=".015 in">0.015 in.</option>
-            <option value=".018 in">0.015 in.</option>
+            <option value=".018 in">0.018 in.</option>
             <option value=".020 in" selected="selected">0.020 in.</option>
             <option value=".025 in">0.025 in.</option>
         </select>
