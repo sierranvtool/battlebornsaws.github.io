@@ -54,14 +54,20 @@ Side note: I know that this style of nesting in SASS doesn't result in the most 
 }
 
 /* Body/Header stuff */
-body {
+.shopping-cart body {
   padding: 0px 30px 30px 20px;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 100;
 }
 
-label {
+.shopping-cart label {
+  display:block !important;
+  clear:both;
   color: #333;
+}
+
+.shopping-cart select {
+  font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium" !important;
 }
 
 .shopping-cart {
@@ -100,12 +106,6 @@ label {
 .product .product-options {
   font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium";
   font-size: 12px;
-}
-.product .product-options label {
-  font-weight: 300;
-}
-.product .product-options select {
-  font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium";
 }
 .product .product-button {
   border: 0;
