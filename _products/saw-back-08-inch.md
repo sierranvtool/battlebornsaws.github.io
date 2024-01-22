@@ -23,10 +23,10 @@ image: /assets/images/saw-back.jpg
         <label for="os0">Slot Size</label>
         <select name="os0" id="os0">
             <option value="">-- Select a size --</option>
-            <option value=".015 in">0.015 in.</option>
-            <option value=".018 in">0.018 in.</option>
-            <option value=".020 in" selected="selected">0.020 in.</option>
-            <option value=".025 in">0.025 in.</option>
+            <option value=".015 inch">0.015 in.</option>
+            <option value=".018 inch">0.018 in.</option>
+            <option value=".020 inch" selected="selected">0.020 in.</option>
+            <option value=".025 inch">0.025 in.</option>
         </select>
 
         <!-- Provide a drop-down menu option field with prices. -->
